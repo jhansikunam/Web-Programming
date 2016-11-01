@@ -1,5 +1,5 @@
 # Web-Programming
-This repository consists of individual working modules to create a complex global site using below:
+This repository consists of individual working modules to using below:
 Programming Environment: Node.js
 Server: Express
 Database: MongoDb

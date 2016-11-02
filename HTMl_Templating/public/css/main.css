@@ -1,0 +1,98 @@
+body {
+    background: #FEFEFE;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #AFAFAF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333; 
+    margin-bottom: 5px;
+ }
+
+h1 {
+    font-size: 2.5rem;
+    border-top: 4px solid #7c7; 
+    background-color: #efe;     
+    color: #050; 
+    font-style: italic; 
+               
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: #050;
+    font-style: italic;
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #050;
+    font-style: italic; 
+}
+
+h4 {
+    font-size: 1.25rem;
+     color: #050;
+     font: italic 75%/125% "Comic Sans MS", cursive; 
+}
+
+h5 {
+    font-size: 1.15rem;
+    color: #050;
+    font-style: italic; 
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+    color: #050;
+    font: italic 75%/125% "Comic Sans MS", cursive; 
+}
+
+.post {
+    width: 75%;
+    border-bottom: 1px dashed #333;
+}
+.square{
+    list-style: square;
+    font: italic 75%/125% "Comic Sans MS", cursive;
+    color:#050
+}
+.brd { 
+  border-bottom: 4px solid #7c7; 
+  background-color: #efe;  
+    color: #050;   
+
+}
+.bot { 
+  border-bottom: 4px solid #7c7; 
+  background-color:#FEFEFE;         
+
+}
+.example {
+  text-align: center;
+  
+}
+ul{
+    padding-right:1em;
+    color:#050
+}
+a:link { color: #050 } /* unvisited links */
+a:visited { color: purple } /* visited links */
+a:hover { font-weight: bold } /* user hovers */
+a:active { color: lime } /* active links */
+

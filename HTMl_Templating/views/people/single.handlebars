@@ -1,0 +1,18 @@
+
+ <div class="bot">
+   <h1>Person details:</h1>
+   <h2>{{ peopleinfo.name}}</h2>
+  
+<!--  <address>Posted by <a href="" rel="author">{{post.poster.name}}</a></address>-->
+    <h3>Attending events:</h3>
+  
+        {{#each peopleinfo.eventlist}}  
+      
+            <p><a href="/events/{{this.id}}">{{this.title}}</a></p>
+      
+    
+        {{/each}}
+  </div>
+
+
+  

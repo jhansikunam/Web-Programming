@@ -1,0 +1,20 @@
+<div class="bot">
+  <h1>Location details:</h1>
+  <h2>{{ locationinfo.name}}</h2>
+  <h3>{{ locationinfo.location}}</h3>
+
+  
+  <h5>Events at this location:</h5>
+  
+  
+  {{#each locationinfo.eventslist}}  
+      
+      <p><a href="/events/{{this.id}}">{{this.title}}</a></p>
+      
+    
+  {{/each}}
+
+</div>
+
+
+  

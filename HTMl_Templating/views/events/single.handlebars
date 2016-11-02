@@ -1,0 +1,26 @@
+
+ <div class="bot">
+    <h1>Event Details:</h1> 
+   <h2>{{ eventinfo.title }}</h2>
+<!--  <address>Posted by <a href="" rel="author">{{post.poster.name}}</a></address>-->
+      <h4>{{ eventinfo.startTime }}</h4>
+      <h4>{{ eventinfo.description }}</h4>
+    
+  <h5>People Attending:</h5>
+
+   <ul>
+      {{#each eventinfo.name}}  
+    
+          <li class="square"><a href="/people/{{this.id}}">{{this.name}}</a></li>
+      
+    
+      {{/each}}
+   </ul>
+       <h5>Location:</h5>
+    
+           <p>{{eventinfo.location.name}}</p> 
+    
+           <p><a href="/locations/{{eventinfo.location.id}}">{{eventinfo.location.location}}</a></p>
+      
+
+</div>
